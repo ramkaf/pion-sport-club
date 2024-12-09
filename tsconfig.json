@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "."
+  },
+  "ts-node": {},
+  "files": ["src/types.d.ts"],
+  // "files": ["src/type.d.ts"], // global type
+  "include": ["src/**/*"]
+}
